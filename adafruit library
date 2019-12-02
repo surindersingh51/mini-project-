@@ -104,7 +104,7 @@ void loop() {
 void testdrawline() {
   int16_t i;
 
-  display.clearDisplay(); // Clear display buffer
+    display.clearDisplay(); // Clear display buffer
 
   for(i=0; i<display.width(); i+=4) {
     display.drawLine(0, 0, i, display.height()-1, SSD1306_WHITE);
