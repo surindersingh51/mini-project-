@@ -1,0 +1,62 @@
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<conio.h>
+
+
+//Structure of ball
+struct ball{
+ int x ;
+ int y ;
+ int radius;
+ int speedx;
+ int speedy;
+}ball;
+
+//Structure of Bat(b1,b2)
+struct bat{
+ int x;
+ int y;
+ int l;
+ int w;
+ int s;
+}b1,b2;
+
+struct score{
+ int s;
+}s1,s2;
+
+char buff[3][100];
+char t[15];
+char n[25];
+char k[50];
+int i=0;
+
+void initialize(){
+
+ replay:
+
+ cleardevice();
+
+ ball.x=getmaxx()/2;
+ ball.y=getmaxy()/2;
+ ball.radius= 7;
+ ball.speedx = 5;
+ ball.speedy = 8;
+
+ b1.x=20;
+ b1.y=237;
+ b1.l=40;
+ b1.w=4;
+ b1.s=13;
+
+ b2.x=620;
+ b2.y=237;
+ b2.l=40;
+ b2.w=4;
+ b2.s=13;
+
+ s1.s=0;
+ s2.s=0;
+
+ setbkcolor(GREEN);
