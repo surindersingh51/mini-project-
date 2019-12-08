@@ -32,7 +32,7 @@ char n[25];
 char k[50];
 int i=0;
 
-void initialize(){
+     void initialize(){
 
  replay:
 
