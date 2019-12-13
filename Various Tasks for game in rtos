@@ -1,0 +1,5 @@
+These are gong to some tasks to be used in our game 
+1.vplayer1()- task for first player to move bar up and down
+2.vplayer2()- task for second player to move bar up and down
+3.vImpactTask()- task to keep track of the game , means check interaction of the ball with bars
+4.vPlayGametaks()- keeps updated the game means initialize, runs and ends the game 
