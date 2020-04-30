@@ -13,7 +13,7 @@ struct ball{
  int speedy;
 }ball;
 
-//Structure of Bat(b1,b2)
+   //Structure of Bat(b1,b2)
 struct bat{
  int x;
  int y;
